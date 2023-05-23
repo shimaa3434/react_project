@@ -1,0 +1,18 @@
+.item{
+    margin: 0 10px;
+}
+.item .circle{
+    width: 70%;
+    padding: 5%px;
+    margin: 0 auto;
+}
+
+.item h5{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px; 
+    color: #fff;
+    line-height: 58px;
+}
+

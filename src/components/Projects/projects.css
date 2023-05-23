@@ -1,0 +1,62 @@
+.projects h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.projects p{
+    color: #b8b8b8b8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 60%;
+}
+.projects .nav.nav-pills{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+.projects .nav.nav-pills .nav-item{
+    width: 33.3%;
+    border-right: 2px solid rgb(255 255 255 / 10%);
+}
+.projects .nav.nav-pills .nav-item:last-child{
+    border: none;
+}
+.projects .nav.nav-pills .nav-link{
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: .8px;
+    font-weight: 500;
+    position: relative;
+    transition: .3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+
+.projects .nav.nav-pills .nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .3s ease-in-out;
+}
+.projects .nav.nav-pills .nav-link.active::before{
+    width: 100% !important;
+}
+.projects .nav.nav-pills .nav-link.active{
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+
