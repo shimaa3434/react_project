@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 const Projects = () => {    
-    const [active, setActive] = useState("")
+    const [active, setActive] = useState("tab-one")
   return (
     <div className='projects' id= 'projects'>
         <div className='container'>
